@@ -1,4 +1,4 @@
-//Tipo de figura y perímetro
+//Determinar tipo de figura y perímetro
 
 function tipoFigura(numLados, lado) {
     if (numLados <= 0) {
@@ -34,7 +34,7 @@ if (numLados > 6) {
     perimetro = numLados * lado;
 }
 
-    //mostrar tipo de fig y permimetro
+//Mostrar tipo de fig y permimetro
     console.log("Tipo de figura: " + tipo);
     console.log("Perímetro: " + perimetro);
 }
