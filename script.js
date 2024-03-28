@@ -1,4 +1,4 @@
-//Determinar tipo de figura y perímetro
+//Determinar tipo de figura y perimetro
 
 function tipoFigura(numLados, lado) {
     if (numLados <= 0) {
