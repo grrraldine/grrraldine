@@ -1,3 +1,14 @@
+//Tipo de figura y perímetro
+
+function tipoFigura(numLados, lado) {
+    if (numLados <= 0) {
+        console.log("Error: El número de lados no es válido :<");
+        return;
+    }
+
+    let tipo;
+    let perimetro;
+
 if (numLados === 0) {
     tipo = "Círculo";
     perimetro = 2 * Math.PI * lado; // Circunferencia
@@ -22,3 +33,9 @@ if (numLados > 6) {
     tipo = "Polígono";
     perimetro = numLados * lado;
 }
+
+    //mostrar tipo de fig y permimetro
+    console.log("Tipo de figura: " + tipo);
+    console.log("Perímetro: " + perimetro);
+}
+
